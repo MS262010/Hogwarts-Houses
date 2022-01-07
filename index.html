@@ -1,0 +1,207 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hogwarts Houses</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h2 id="head">Harry Potter</h1>
+            <h1>Hogwarts Houses
+        </h2>
+        <hr style="width: 80%;">
+        <h4>Information about the Hogwarts Houses such as - Common Traits , House Crest , Mascot , Head of
+            House etc.</h3><hr style="width: 80%;">
+            <h2 class="text-capitalize"><I><U>The founders of hogwarts</U></I></h2>
+            <h4>(Click to know more)</h4>
+            <span>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Rowena">
+                    <img src="PM_RowenaRavenclaw_Founders.jpg" style="height: 600px;" class="img-responsive">
+                    <h3 style="font-size: 22px;color: white;font-family: 'Righteous', cursive !important;">Rowena Ravenclaw</h3>
+                </div>
+                <div class="modal fade" id="Rowena">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Rowena Ravenclaw</h3>
+                            </div>
+
+                            <div class="modal-body">
+                                <img src="PM_RowenaRavenclaw_Founders.jpg" class="img-responsive img_modal"><br>
+                                <p class="p_modal">Rowena Ravenclaw was a Scottish witch and one of the four founders of
+                                    Hogwarts School of Witchcraft and Wizardry. She was noted for her intelligence and
+                                    creativity.<br>
+                                    Rowena died sometime in the eleventh century, after she fell fatally ill. Legend had
+                                    it that a broken heart is the cause — because her daughter Helena ran away with her
+                                    diadem. Her portrait remains at Hogwarts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </span>
+            <span>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Godric">
+                    <img src="https://i.postimg.cc/rmtPBYQB/Founders-gryffindor1.jpg" style="height: 600px;"
+                        class="img-responsive">
+                    <h3 style="font-size: 22px;color: white;font-family: 'Righteous', cursive !important;">Godric Gryffindor</h3>
+                </div>
+                <div class="modal fade" id="Godric">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Godric Gryffindor</h3>
+                            </div>
+
+                            <div class="modal-body">
+                                <img src="https://i.postimg.cc/rmtPBYQB/Founders-gryffindor1.jpg"
+                                    class="img-responsive img_modal"><br>
+                                <p class="p_modal">Godric Gryffindor was an English wizard and one of the four founders
+                                    of Hogwarts School of Witchcraft and Wizardry. He was great friends with Salazar
+                                    Slytherin, but opposed him when he later thought that they should not accept
+                                    Muggle-born students at Hogwarts.<br> It is unknown when he died. In his honour
+                                    Gryffindor's birthplace became known as Godric's Hollow. His portrait still remains
+                                    at Hogwarts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </span>
+            <span>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Helga">
+                    <img src="https://i.postimg.cc/dtSGCtq9/PM-Helga-Hufflepuff-Founders.jpg" style="height: 600px;"
+                        class="img-responsive">
+                    <h3 style="font-size: 22px;color: white;font-family: 'Righteous', cursive !important;   ">Helga Hufflepuff</h3>
+                </div>
+                <div class="modal fade" id="Helga">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Helga Hufflepuff</h3>
+                            </div>
+
+                            <div class="modal-body">
+                                <img src="https://i.postimg.cc/dtSGCtq9/PM-Helga-Hufflepuff-Founders.jpg"
+                                    class="img-responsive img_modal"><br>
+                                <p class="p_modal">Helga Hufflepuff was a Welsh witch and was one of the four founders
+                                    of Hogwarts School of Witchcraft and Wizardry.<br> While the other founders chose to
+                                    have special students, she accepted them all without preference, but the students of
+                                    her house are described as loyal and hard-working. Her portrait remained at Hogwarts
+                                    by at least the 1980s.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </span>
+            <span>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Salazar">
+                    <img src="https://i.postimg.cc/8c7MKq4v/PM-Salazar-Slytherin-Founders.jpg" style="height: 600px;"
+                        class="img-responsive">
+                    <h3 style="font-size: 22px;color: white;font-family: 'Righteous', cursive !important;">Salazar Slytherin</h3>
+                </div>
+                <div class="modal fade" id="Salazar">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Salazar Slytherin</h3>
+                            </div>
+
+                            <div class="modal-body">
+                                <img src="https://i.postimg.cc/8c7MKq4v/PM-Salazar-Slytherin-Founders.jpg"
+                                    class="img-responsive img_modal"><br>
+                                <p class="p_modal">Salazar Slytherin was a pure-blood wizard, noted for his cunning and
+                                    determination. He was regarded as one of the greatest wizards of the age,
+                                    respectively as a Parselmouth and as a skilled Legilimens.<br>He mistrusted
+                                    Muggle-born students to the point of proposing that they should not be accepted at
+                                    Hogwarts. However, when he expressed his opinion to the other Hogwarts founders,
+                                    they did not agree with him. In response, he left the school, never to return.<br>
+                                    Salazar died sometime after creating the Chamber of Secrets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </span><hr style="width: 100%;">
+            <h2 class="text-capitalize"><I><U>The hogwarts houses</U></I></h2>
+        <div id="Houses">
+            <img id="logo" src="https://static0.srcdn.com/wordpress/wp-content/uploads/2020/03/The-Hogwarts-house-banners-and-emblems-combined.jpg?q=50&fit=crop&w=943&h=500&dpr=1.5">
+            <h4 style="font-size: 22px; font-family: 'Londrina Solid',cursive !important; padding: 25px; ">
+            Hogwarts is divided into four houses, each bearing the last name of its founder.<br>
+            Throughout the school year, the houses compete for the House Cup, gaining and losing points based on actions such as performance in class and rule violations. The house with the highest end-of-year total wins and has its colours displayed in the Great Hall for the following school year.<br>
+            Each house also has its own Quidditch team that competes for the Quidditch Cup. These two competitions breed rivalries between the houses.<br>
+            Houses at Hogwarts are living and learning communities for their students. Each house is under the authority of one of the Hogwarts staff members.<br>
+            The Heads of the houses, as they are called, are in charge of giving their students important information, dealing with matters of severe punishment, and responding to emergencies in their houses, among other things.
+            </h4><br><br>
+            <div>
+            <h3>Gryffindor</h3><hr style="width: 30%; ">
+            <img id="crest" src="Gryffindor_crest.png"><hr style="width: 80%; border: 3px solid rgb(255, 80, 80);">
+        <p>Gryffindor House places high value on traits such as courage, chivalry, and nerve.<br>
+        Gryffindor's mascot is the lion, and its colours are scarlet red and gold.<br>
+        The Head of this house is the Transfiguration Professor and Deputy Headmistress, Minerva McGonagall until she becomes headmistress<br>
+        The house ghost is Sir Nicholas de Mimsy-Porpington, more commonly known as Nearly Headless Nick. </p>
+        <a href="https://pottermore.fandom.com/wiki/Gryffindor" target="_blank">Know More</a>
+        <hr style="width: 80%; border: 3px solid rgb(255, 80, 80);"><br><br>
+            <h3>Slytherin</h3><hr style="width: 30%;">
+            <img id="crest" src="https://i.postimg.cc/vBcz1Pj0/226-2269088-photo-harry-potter-mug-slytherin-crest.jpg">
+            <hr style="width: 80%; border: 3px solid rgb(23, 212, 23);"><p>Slytherin values ambition, cunning, leadership, and resourcefulness.<br>
+                The house mascot of Slytherin is the serpent, and the house colours are green and silver.<br>
+                The Head of House is Professor Severus Snape. Then, the previous Head of House Professor Horace Slughorn comes out of retirement,<br>
+                re-assuming authority after Snape becomes headmaster.<br>
+                The ghost of Slytherin house is The Bloody Baron.</p>
+            <a href="https://pottermore.fandom.com/wiki/Slytherin" target="_blank">Know More</a>
+            <hr style="width: 80%;border: 3px solid rgb(23, 212, 23);"><br><br>
+            <h3>Hufflepuff</h3><hr style="width: 30%;">
+            <img id="crest" src="https://www.pngfind.com/pngs/m/115-1150321_what-hogwarts-house-am-i-in-harry-potter.png">
+            <hr style="width: 80%; border: 3px solid yellow;">
+            <p>Hufflepuffs value hard work, dedication, patience, loyalty, and fair play and were known to have a strong moral code,<br>
+            and a sense of right and wrong.<br>
+            The house mascot is the badger, and canary yellow and black are its colours.<br>
+            The Head of this house is the Herbology Professor Pomona Sprout and the house ghost is the Fat Friar.
+            </p>
+            <a href="https://pottermore.fandom.com/wiki/Hufflepuff" target="_blank">Know More</a>
+            <hr style="width: 80%; border: 3px solid yellow"><br><br>
+
+            <h3>Ravenclaw</h3><hr style="width: 30%;">
+            <img id="crest" src="https://www.kindpng.com/picc/m/184-1842118_harry-potter-ravenclaw-logo-png-transparent-png.png">
+            <hr style="width: 80%;border: 3px solid skyblue">
+            <p>Ravenclaw values intelligence, learning, wisdom and wit.<br>
+            The house mascot is an eagle and the house colours are blue and bronze.<br>
+            The head of this house is the Charms teacher, Professor Filius Flitwick and the house ghost is the Grey Lady.</p>
+            <a href="https://pottermore.fandom.com/wiki/Ravenclaw" target="_blank">Know More</a>
+            <hr style="width: 80%; border: 3px solid skyblue"><br>
+            </div>
+        </div>
+            
+        </div>
+    </center>
+</body>
+
+</html>

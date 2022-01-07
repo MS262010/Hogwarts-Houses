@@ -1,0 +1,42 @@
+img{
+    border-radius: 20px;
+    border: ridge 10px 	#864223;
+}
+body{
+    background-image: url("https://wallpapercave.com/wp/wp6425178.jpg");
+    background-size: cover;
+}
+#head,h1{
+    font-family: 'Righteous', cursive !important;
+    color: white;
+}
+h2{
+    font-family: 'Londrina Solid', cursive;
+    color: white;
+}
+.modal-body,.modal-header{
+    font-family: 'Merienda One', cursive;
+}
+#Houses{
+    font-family: 'Merienda One', cursive;
+    color: white;
+}
+h4{
+    color: white;
+    font-family: 'Charm',cursive;
+}
+#crest{
+    height: 270px;
+    width: 230px;
+}
+#logo{
+    height: 300px;
+}
+a{
+    color: white !important;
+    font-size: 15px;
+    text-decoration: underline;
+}
+p{
+    font-size: 18px;
+}
